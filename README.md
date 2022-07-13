@@ -15,8 +15,22 @@ As of **Gene expression dataset**, please download the gene expression dataset i
 
 ### How to use this repo? 
 - **Step-1**: the UJIndoorLoc and Forest_cover_type datasets are provided as .zip (due to file size in GitHub). Please unzip them in the respective folders, e.g., 'Datasets/Forest_cover_type/covtype/covtype.csv'. 
-- **Step-2**: Then run individual notebook:
-- 
+- **Step-2**: Then run individual [notebooks](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks):
+
+    [AutoML_ForestCoverType.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_ForestCoverType.ipynb)
+    [AutoML_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_GE.ipynb)
+    [AutoML_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_Symptom_Precaution.ipynb)
+    [AutoML_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_UJIndoorLoc.ipynb)
+    [SAN_CAE_Gene_Expression.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/SAN_CAE_Gene_Expression.ipynb)
+    [TabNet_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Forest_Cover_Type.ipynb)
+    [TabNet_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_GE.ipynb)
+    [TabNet_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Symptom_Precaution.ipynb)
+    [TabNet_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_UJIndoorLoc.ipynb)
+    [XGBoost_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Forest_Cover_Type.ipynb)
+    [XGBoost_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_GE.ipynb)
+    [XGBoost_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Symptom_Precaution.ipynb)
+    [XGBoost_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_UJIndoorLoc.ipynb)
+
 ### Citation request ###
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
