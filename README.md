@@ -11,10 +11,12 @@ The [Datasets](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/Datas
 - **UJIndoorLoc**: source: J. Torres-Sospedra, R. Montoliu, A. Mart´ınez-Uso, T. J. Arnau, M. Benedito-Bordonau, and J. Huerta, "Ujiindoorloc: A new multibuilding and multi-floor database for wlan fingerprint-based indoor localization problems" in 2014 international conference on indoor positioning and indoor navigation (IPIN). IEEE, 2014, pp. 261–270.
 - **Forest cover type**: source: J. A. Blackard and D. J. Dean, “Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables,” Computers and electronics in agriculture, vol. 24, no. 3, pp. 131–151, 1999.
 
-The UJIndoorLoc and Forest_cover_type datasets are provided as .zip (due to file size in GitHub). Please unzip them in the respective folders, e.g., 'Datasets/Forest_cover_type/covtype/covtype.csv'. 
-
 As of **Gene expression dataset**, please download the gene expression dataset in pickle format 'TCGA_new_pre_first.pckl' and 'TCGA_new_pre_second.pckl' from https://drive.google.com/drive/u/2/folders/16HR6OoQOeEbfJar3GEZFmk-BKZLeUqCN
 
+### How to use this repo? 
+- **Step-1**: the UJIndoorLoc and Forest_cover_type datasets are provided as .zip (due to file size in GitHub). Please unzip them in the respective folders, e.g., 'Datasets/Forest_cover_type/covtype/covtype.csv'. 
+- **Step-2**: Then run individual notebook:
+- 
 ### Citation request ###
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
