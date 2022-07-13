@@ -17,19 +17,19 @@ As of **Gene expression dataset**, please download the gene expression dataset i
 - **Step-1**: the UJIndoorLoc and Forest_cover_type datasets are provided as .zip (due to file size in GitHub). Please unzip them in the respective folders, e.g., 'Datasets/Forest_cover_type/covtype/covtype.csv'. 
 - **Step-2**: Then run individual [notebooks](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks):
 
-    - [AutoML_ForestCoverType.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_ForestCoverType.ipynb)
-    - [AutoML_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_GE.ipynb)
-    - [AutoML_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_Symptom_Precaution.ipynb)
-    - [AutoML_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_UJIndoorLoc.ipynb)
-    - [SAN_CAE_Gene_Expression.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/SAN_CAE_Gene_Expression.ipynb)
-    - [TabNet_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Forest_Cover_Type.ipynb)
-    - [TabNet_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_GE.ipynb)
-    - [TabNet_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Symptom_Precaution.ipynb)
-    - [TabNet_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_UJIndoorLoc.ipynb)
-    - [XGBoost_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Forest_Cover_Type.ipynb)
-    - [XGBoost_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_GE.ipynb)
-    - [XGBoost_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Symptom_Precaution.ipynb)
-    - [XGBoost_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_UJIndoorLoc.ipynb)
+    - [AutoML_ForestCoverType.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_ForestCoverType.ipynb): AutoML (i.e., Pycaret)-based classification on forest cover type dataset. 
+    - [AutoML_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_GE.ipynb): AutoML (i.e., Pycaret)-based classification on gene expression dataset. 
+    - [AutoML_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_Symptom_Precaution.ipynb): AutoML (i.e., Pycaret)-based classification on symptom precaution dataset. 
+    - [AutoML_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/AutoML_UJIndoorLoc.ipynb): AutoML (i.e., Pycaret)-based classification on UJIndoorLoc dataset. 
+    - [SAN_CAE_Gene_Expression.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/SAN_CAE_Gene_Expression.ipynb): convolutional autoencoder (CAE)-based feature embedding and classification using self-attentioan network (SAN) on gene expression dataset. Example for other dataset will be uploaded soon. 
+    - [TabNet_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Forest_Cover_Type.ipynb): classification using TabNet on forest cover type dataset. 
+    - [TabNet_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_GE.ipynb): classification using TabNet on gene expression dataset. 
+    - [TabNet_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_Symptom_Precaution.ipynb): classification using TabNet on symptom precaution dataset.
+    - [TabNet_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/TabNet_UJIndoorLoc.ipynb): classification using TabNet on  UJIndoorLoc dataset.
+    - [XGBoost_Forest_Cover_Type.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Forest_Cover_Type.ipynb): classification using XGBoost on forest cover type dataset. 
+    - [XGBoost_GE.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_GE.ipynb): classification using XGBoost on symptom precaution dataset.
+    - [XGBoost_Symptom_Precaution.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_Symptom_Precaution.ipynb): classification using XGBoost on symptom precaution dataset.
+    - [XGBoost_UJIndoorLoc.ipynb](https://github.com/AwesomeDeepAI/DeepExplainHidim/tree/main/notebooks/XGBoost_UJIndoorLoc.ipynb): classification using XGBoost on UJIndoorLoc dataset. 
 
 ### Citation request ###
 If you use the code of this repository in your research, please consider citing the folowing papers:
